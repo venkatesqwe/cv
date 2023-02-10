@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <table cellspacing="10" id="my_details">
+        <tr>
+            <td>Mobile No:</td>
+            <td>9347921598</td>
+        </tr>
+        <tr>
+            <td>Mail Id:</td>
+            <td>Ced19i019@iiitdm.ac.in</td>
+        </tr>
+    </table>
+    <form action="mailto:ced19i019@iiitdm.ac.in" method="post" id="user_details" enctype="text/plain">
+        <table cellspacing="5">
+            <tr>
+                <td><label for="Name">Your Name:</label></td>
+                <td><input type="text" name="user_name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Your Email:</label></td>
+                <td><input type="email" name="user_mail"></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea id="message" rows="10" cols="25" name="user_message"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Message"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
